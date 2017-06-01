@@ -382,9 +382,9 @@
           "title": "HELP YOUR COMP<br>",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "form": {
-            "action": "compcure555.nsk@gmail.ru",
+            "action": "compcure555.nsk@gmail.com",
             "alerts": {
-              "success": "Спасибо за заполнение формы!"
+              "success": "Спасибо за заполнение формы! В ближайшее время мы свяжемся с вами!"
             },
             "fields": {
               "name": {
