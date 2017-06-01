@@ -30,194 +30,6 @@
     "screenshot": "screenshot.png"
   },
   "pages": {
-    "httpsmax678.github.io-CompCure Service.com.html ": {
-      "settings": {
-        "main": true,
-        "title": "CompCure Service",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "25px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            },
-            ".navbar-toggler": {
-              "color": "#000000"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
-            },
-            ".link, .dropdown-item": {
-              "color": "#000000",
-              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
-              "font-family": "'Yanone Kaffeesatz', sans-serif"
-            },
-            ".link": {
-              "font-size": "1.2rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.300rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#c7baba"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#d7cece!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ded6d6"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#000000",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#fac51c!important"
-            },
-            ".btn": {
-              "font-size": "20px"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-4",
-          "_params": {
-            "bgColor": "#ded6d6",
-            "fontSize": "1.2",
-            "fontName": {
-              "name": "Yanone Kaffeesatz",
-              "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
-              "css": "'Yanone Kaffeesatz', sans-serif"
-            },
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/96655f-0171fd498b74412a820c82c58d7555b8-157x128-98.jpg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "main.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"CompCore Service.com.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">COMPCURE&nbsp;<br>SERVICE<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\">УСЛУГИ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacts.html\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"Submit your application.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(0, 0, 0);\"></span>ОСТАВИТЬ ЗАЯВКУ</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "center",
-              "color": "#000000"
-            },
-            ".mbr-section-text": {
-              "font-size": "20px",
-              "color": "#292cb0"
-            },
-            ".mbr-section-text I": {
-              "font-size": "21px",
-              "color": "#0d00ff"
-            },
-            ".mbr-section-title I": {
-              "color": "#2969b0"
-            },
-            ".mbr-section-text B": {
-              "color": "#292cb0",
-              "font-size": "21px"
-            },
-            ".mbr-section-text SPAN": {
-              "font-size": "19px",
-              "color": "#292cb0"
-            }
-          },
-          "_anchor": "header2-7",
-          "_params": {
-            "imageSize": "56",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-uploads-141103282695035fa1380-95cdfeef-2000x1027-94.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0",
-            "overlayColor": "#41a85f",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/2-z54-e18982cb-1547-43ef-845b-7df24c581faa-1400x796-1.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "<br>ВАШ КОМПЬЮТЕР ПРИБОЛЕЛ?",
-          "text": "<br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ОДОЛЕЛИ ВИРУСЫ? </i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>СНИЗИЛАСЬ РАБОТОСПОСОБНОСТЬ?</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ДУМАЕТЕ, ПОТРЕБУЕТСЯ ДЛИТЕЛЬНЫЙ ОТПУСК?</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i><br></i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ЕСТЬ РЕШЕНИЕ!</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>COMPCURE SERVICE!</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ВЫСОКОКАЧЕСТВЕННЫЙ РЕМОНТ!</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ПРОФЕССИОНАЛЬНЫЕ СПЕЦИАЛИСТЫ!</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>И ВАШ ДРУГ СНОВА ОБРЕТЁТ УВЕРЕННОСТЬ И ВЫСОКУЮ ПРОИЗВОДИТЕЛЬНОСТЬ=)</i></b></span></font>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
-        }
-      ]
-    },
     "httpsmax678.github.io-Submit your application.html": {
       "settings": {
         "title": "Заявка на ремон"
@@ -627,6 +439,194 @@
           "title": "CompCure спешит на помощь:",
           "text": "<i><b>Установка Операционной системы:*</b></i><br>- &nbsp;Восстановление системы <b>Windows - </b>от <b>350</b> р<br>- &nbsp;Установка Windows XP или Windows 7/8 на ПК (без установки драйверов) -<b> 350</b> р.<br>- &nbsp;Установка Windows XP или Windows 7/8 на ноутбук, нетбук (без установки драйверов) - <b>450 р.</b><br>- &nbsp;Установка Windows XP или Windows 7/8 + установка драйверов устройств - <b>700 р.</b><br>- &nbsp;Установка Windows XP или Windows 7/8 + Настройка + Драйвера -<b> 750 р.&nbsp;</b><br>- &nbsp;Установка Windows XP или Windows 7/8 + Драйвера + Оптимизация + Установка антивируса - <b>1150 р.</b><br>- &nbsp;&nbsp;Установка Mac OS X на компьютер Apple - <b>900 р.</b><br>- &nbsp; Установка Linux Ubuntu - 520 р.<br>&nbsp; &nbsp; <b>&nbsp;* Цены указаны за Программное обеспечение без учета лицензии, стоимость взимается только за проделанную работу<br>&nbsp; &nbsp; &nbsp; &nbsp; Лицензия (лицензионный ключ) на данное программное обеспечение приобретается за отдельную плату.&nbsp;</b><br><b>(Все драйвера &nbsp;устройств имеют&nbsp;&nbsp;лицензированную, цифровую подпись).</b><br><i><b>Установка программ:</b></i><br>- Установка брандмауэра (Firewall) -<b> 150 р.</b><br>- Поиск и установка (лицензированных)драйверов - &nbsp;<b>100 р. (1 драйвер).</b><br>- Установка пакета офисных программ (стандартный)-(Демонстрационная версия на 30 дней) - <b>250 р.</b><br>-Установка пакета офисных программ (полный пакет)-(Лицензия) -<b> 300 р.</b><br>- Установка мультимедиа программ и кодеков - <b>150 р.&nbsp;</b><br><i><b>Удаление вирусов и антивирусная профилактика :</b></i><br><i>-&nbsp;</i>Установка антивирусных программ (Лицензия) -&nbsp;<i><b>&nbsp;250 р *.</b></i><br><i>-&nbsp;</i>Поиск и устранение вирусов, без установки ПО - от<b> 200 р.</b><br><i>-&nbsp;</i>Удаление вирусов смс — баннеров вымогателей (+профилактика) - <b>от 300 до 600 р.</b><br><i><b>Восстановление данных:</b></i><br>- Восстановление данных при программном сбое (hdd, flash) - <b>от 600 р.</b><br>- Восстановление данных при аппаратном сбое (hdd, flash) - <b>от 1400 р.<i>&nbsp;</i></b><br><i><b>Ремонт компьютеров и ноутбуков:</b></i><br>- Диагностика, при условии выполнения ремонтных работ (простая) - <b>бесплатно</b><br>- Диагностика без проведения ремонтных работ (программная) - <b>250 р.&nbsp;</b><br>- Диагностика без проведения ремонтных работ (аппаратно-программная) -<b> 350 р.</b><br>- Тестирования аппаратной части компьютера -<b> от 100 р.</b><br>- Ремонт, замена комплектующих (простой) - <b>от 150 р.</b><br>- Ремонт, замена комплектующих (сложный) - <b>от 250 р.</b><br><i><b>Профилактические работы:</b></i><br>- Проверка жесткого диска на наличие логических ошибок - <b>100 р.</b><br>- Устранение логической ошибки на жестком диске - <b>200 р.</b><br>- Дефрагментация жесткого диска - <b>150 р.</b><br>- Чистка реестра + настройка - <b>250 р.</b><br>- Чистка компьютера от пыли - <b>350 р</b>.&nbsp;<br>- Чистка компьютера от пыли + чистка БП - <b>400 р.</b><br>- Чистка компьютера от пыли + чистка БП + замена термопасты <b>-500 р.</b><br>- Чистка ноутбука от пыли - от <b>550 р.</b><br>- Чистка ноутбука от пыли + замена термопасты - <b>750 р.</b><br><i><b>Дополнительные услуги:</b></i><br>- Абонентское обслуживание компьютеров (3-4 рабочих места) - <b>2000 р&nbsp;</b><br>- Абонентское обслуживание компьютеров (5-8 рабочих мест) - <b>5000 р.</b>&nbsp;<br>- Сборка компьютера на заказ -<b> от 400 р.</b>&nbsp;<br>- Модернизация компьютера - <b>150 р.</b><br>- Настройка BIOS <b>- 200 р.</b><br>- Восстановление работоспособности Windows без переустановки (если возможно) - &nbsp;<b>400 р.</b><br>- Сброс пароля администратора (OS Windows) - <b>от 350 р.</b><br>- Настройка e-mail клиента - <b>100 р.</b><br>- Сохранение данных при установке операционной системы - <b>350 р.</b><br>- Создание, изменение разделов на жестком диске (без переустановки OS) -<b> 350 р.</b><br>- Копирование, перенос данных -<b> от 300 р.</b> (до 10 Гб)<br><b>&nbsp;* Цены указаны за Программное обеспецение без учета лицензии, стоимость взимается только за проделанную работу<br>&nbsp; Лицензия (лицензионный ключ) на данное программное обеспечение приобретается за &nbsp; &nbsp; &nbsp;отдельную плату.&nbsp;</b><br><b>(Все драйвера            устройств имеют  лицензированную, цифровую подпись).</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"CompCore Service.com.html\" data-toolbar=\"-mbrBtnMove\">&nbsp;ГЛАВНАЯ<br></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"Submit your application.html\" data-toolbar=\"-mbrBtnMove\">ОСТАВИТЬ ЗАЯВКУ</a>"
+        }
+      ]
+    },
+    "httpsmax678.github.io-CompCure Service.com.html ": {
+      "settings": {
+        "main": true,
+        "title": "CompCure Service",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "25px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-family": "'Yanone Kaffeesatz', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#c7baba"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#d7cece!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ded6d6"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#fac51c!important"
+            },
+            ".btn": {
+              "font-size": "20px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4",
+          "_params": {
+            "bgColor": "#ded6d6",
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Yanone Kaffeesatz",
+              "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "css": "'Yanone Kaffeesatz', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/96655f-0171fd498b74412a820c82c58d7555b8-157x128-98.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "main.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"CompCore Service.com.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">COMPCURE&nbsp;<br>SERVICE<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\">УСЛУГИ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacts.html\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"Submit your application.html\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(0, 0, 0);\"></span>ОСТАВИТЬ ЗАЯВКУ</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-section-text": {
+              "font-size": "20px",
+              "color": "#292cb0"
+            },
+            ".mbr-section-text I": {
+              "font-size": "21px",
+              "color": "#0d00ff"
+            },
+            ".mbr-section-title I": {
+              "color": "#2969b0"
+            },
+            ".mbr-section-text B": {
+              "color": "#292cb0",
+              "font-size": "21px"
+            },
+            ".mbr-section-text SPAN": {
+              "font-size": "19px",
+              "color": "#292cb0"
+            }
+          },
+          "_anchor": "header2-7",
+          "_params": {
+            "imageSize": "56",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-uploads-141103282695035fa1380-95cdfeef-2000x1027-94.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0",
+            "overlayColor": "#41a85f",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/2-z54-e18982cb-1547-43ef-845b-7df24c581faa-1400x796-1.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<br>ВАШ КОМПЬЮТЕР ПРИБОЛЕЛ?",
+          "text": "<br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ОДОЛЕЛИ ВИРУСЫ? </i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>СНИЗИЛАСЬ РАБОТОСПОСОБНОСТЬ?</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ДУМАЕТЕ, ПОТРЕБУЕТСЯ ДЛИТЕЛЬНЫЙ ОТПУСК?</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i><br></i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ЕСТЬ РЕШЕНИЕ!</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>COMPCURE SERVICE!</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ВЫСОКОКАЧЕСТВЕННЫЙ РЕМОНТ!</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>ПРОФЕССИОНАЛЬНЫЕ СПЕЦИАЛИСТЫ!</i></b></span></font><br><font color=\"#0d00ff\"><span style=\"font-size: 21px; line-height: 31px;\"><b><i>И ВАШ ДРУГ СНОВА ОБРЕТЁТ УВЕРЕННОСТЬ И ВЫСОКУЮ ПРОИЗВОДИТЕЛЬНОСТЬ=)</i></b></span></font>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         }
       ]
     }
